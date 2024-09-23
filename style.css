@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #DD092F;
+    min-height: 100vh;
+}
+
+.img-titulo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 8.5rem;
+}
+
+.img-titulo {
+    width: 30.9375rem;
+    height: 9.5rem;
+}
+
+.pkm-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 9.94rem;
+    gap: 2.12rem;
+}
+
+.pkm-container {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.25rem;
+    background: #77B35B;
+    width: 21.5rem;
+    height: 12.25rem;
+    padding: 1rem;
+}
+
+.pkm-stats {
+    display: flex;
+    justify-content: space-between;
+    max-width: 21.5rem;
+    max-height: 5rem;
+    padding-bottom: 0.9rem;
+}
+
+.pkm-type {
+    display: flex;
+    gap: 0.625rem;
+}
+
+.pkm-type p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 0.5625rem;
+}
+
+.pkm-type > div {
+    width: 3.125rem;
+    height: 1.3125rem;
+    padding: 0.375rem 0.75rem;
+    border-radius: 3.125rem;
+    text-align: center;
+    background: #BFC66B;
+}
+
+.pkm-number {
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 0.9375rem;
+    font-weight: 700;
+}
+
+.data {
+    display: flex;
+}
+
+.pkm-data {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    max-width: 21.5rem;
+    max-height: 5rem;
+}
+
+.pkm-name {
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 1.6875rem;
+    font-weight: 700;
+}
+
+.pkm-description {
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 0.8125rem;
+}
+
+.img-pkm {
+    width: 7.6875rem;
+    height: 7.5rem;
+}
+
+
+
